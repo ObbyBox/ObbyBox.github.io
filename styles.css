@@ -1,23 +1,30 @@
-nav {
-    background-color:aqua
-}
-nav {
-    border: 5px solid aqua;
+body {
+    height: 1500px;
 }
 
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
 
 li {
     display: inline;
     padding: 10px;
+    list-style: none;
 }
+
+nav {
+    background-color:aqua;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+}
+
 
 a {
     text-decoration: none;
 }
-body {
-    height: 1500px;
 
-}
-body {
-    position: relative
+#home {
+    margin-left: auto;
 }
