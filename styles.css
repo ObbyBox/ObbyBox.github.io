@@ -1,1 +1,23 @@
+nav {
+    background-color:aqua
+}
+nav {
+    border: 5px solid aqua;
+}
 
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    height: 1500px;
+
+}
+body {
+    position: relative
+}
