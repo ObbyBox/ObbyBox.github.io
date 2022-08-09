@@ -21,9 +21,6 @@
                                 <li><a href="#">Shoes</a></li>
                         </ul>
                     </li>
-
-                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-
         </nav>
 </body>
 </html>
