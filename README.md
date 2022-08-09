@@ -23,7 +23,7 @@
                     </li>
 
                 <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-<styles>
+<style>
     body {
     height: 1500px;
     position: relative;
@@ -81,4 +81,4 @@ a {
         flex-direction: column;
     }
 }
-                </styles>
+                </style>
