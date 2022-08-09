@@ -1,0 +1,28 @@
+nav {
+    background-color:aqua
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    height: 1500px;
+
+}
+body {
+    position: relative
+}
+
+#navbar1 {
+    position: fixed
+}
+
+#navbar2    {
+    width: 150px
+}
