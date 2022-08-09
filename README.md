@@ -26,6 +26,3 @@
 
                 <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
 
-        </nav>
-</body>
-</html>
