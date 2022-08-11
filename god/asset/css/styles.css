@@ -1,11 +1,18 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+</style>
+
 body {
     height: 1500px;
     position: relative;
-    background-color: slategray;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 th, td {
-    border: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     padding:6px 6px;
 }
 
@@ -15,40 +22,35 @@ tr {
 }
 
 table {
-    font-family: Arial, Helvetica, sans-serif;
     width: 500px;
     height: 150px;
     background-color: whitesmoke;
-    collapse;
     text-align: left;
+    border-radius: 10px;
+    border-collapse: collapse;
     border: 0px;
-    border-radius: 6px;
-    border-bottom: flat 30px mediumseagreen;
 }
 
 #top {
     background-color: mediumseagreen;
-    text-decoration: none;
-    border:solid 5px mediumseagreen;
     color: white;
-    padding: 0px;
+    border-bottom: 20px mediumseagreen;
 }
 
 #top1 {
     text-decoration: none;
-    border: 0px;
+    border-bottom: 10px lightslategray;
 }
 
 #top2 {
     background-color: lightgray;
     text-decoration: none;
-    border: 0px;
     color: mediumseagreen;
+    border-bottom: 10px lightslategray;
 }
 
 #top3 {
-    text-decoration: none;
-    border-bottom: 10px mediumseagreen;
+    border-bottom: 20px mediumseagreen;
 }
 
 a:hover {

@@ -1,0 +1,47 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+</style>
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    width: 500px;
+    height: 150px;
+    background-color: whitesmoke;
+    text-align: left;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 0px;
+}
+
+#top {
+    background-color: mediumseagreen;
+    color: white;
+    border-bottom: 20px mediumseagreen;
+}
+
+#top1 {
+    text-decoration: none;
+    border-bottom: 10px lightslategray;
+}
+
+#top2 {
+    background-color: lightgray;
+    text-decoration: none;
+    color: mediumseagreen;
+    border-bottom: 10px lightslategray;
+}
+
+#top3 {
+    border-bottom: 20px mediumseagreen;
+}
+
+a:hover {
+    background-color: blueviolet
+}
+
+a {
+    text-decoration: none;
+}
