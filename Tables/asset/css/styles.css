@@ -1,0 +1,60 @@
+body {
+    height: 1500px;
+    position: relative;
+    background-color: slategray;
+}
+
+th, td {
+    border: 0px;
+    padding:6px 6px;
+}
+
+tr {
+    padding: 0px;
+    tr
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 150px;
+    background-color: whitesmoke;
+    collapse;
+    text-align: left;
+    border: 0px;
+    border-radius: 6px;
+    border-bottom: flat 30px mediumseagreen;
+}
+
+#top {
+    background-color: mediumseagreen;
+    text-decoration: none;
+    border:solid 5px mediumseagreen;
+    color: white;
+    padding: 0px;
+}
+
+#top1 {
+    text-decoration: none;
+    border: 0px;
+}
+
+#top2 {
+    background-color: lightgray;
+    text-decoration: none;
+    border: 0px;
+    color: mediumseagreen;
+}
+
+#top3 {
+    text-decoration: none;
+    border-bottom: 10px mediumseagreen;
+}
+
+a:hover {
+    background-color: blueviolet
+}
+
+a {
+    text-decoration: none;
+}
