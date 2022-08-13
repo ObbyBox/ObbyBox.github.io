@@ -24,12 +24,27 @@ body {
     padding-top: 10px;
   }
 
+  .scam {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / 1;
+    text-align: center;
+  }
+
+ .wow {
+  grid-column: 1;
+  grid-row: 1; } 
+a {
+  text-decoration: none;
+}
+
   .left {
     grid-column: 1;
     grid-row: 2 / 5;
     background-color: moccasin;
     padding: 20px;
-    height: 430px;
+    height: 462px;
+    text-decoration: none;
   }
   .right {
     grid-column: 2 / 4;
@@ -37,8 +52,11 @@ body {
     background-color: lightskyblue;
     padding: 10px;
     text-indent: 10%;
-    height: 385
+    height: 417;
+    grid-template-columns: repeat(3., 1fr);
+    grid-auto-rows: minmax(100px, auto);
   }
+
   .footer {
     grid-column: 2 / 4;
     grid-row: 4;
