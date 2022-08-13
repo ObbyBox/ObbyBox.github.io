@@ -1,0 +1,48 @@
+body {
+    background-color: gainsboro;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3., 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: white;
+    padding: 10px;
+  }
+
+  .main, .header, .left, .right, .footer {
+    box-shadow: 1px 1px 1px 1px slategray;
+    border-radius: 3px;
+  }
+
+  .header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgb(255, 207, 207);
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .left {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    background-color: moccasin;
+    padding: 20px;
+    height: 430px;
+  }
+  .right {
+    grid-column: 2 / 4;
+    grid-row: 2 /4;
+    background-color: lightskyblue;
+    padding: 10px;
+    text-indent: 10%;
+    height: 385
+  }
+  .footer {
+    grid-column: 2 / 4;
+    grid-row: 4;
+    background-color: lightsalmon;
+    height: 60;
+    text-align: center;
+  }
