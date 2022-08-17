@@ -31,29 +31,32 @@ form {
     border-width: 1px;
 }
 
-#name, #email, #select{
+#name, #email, #select, #textarea{
     padding: 10px;
     font-family: 'Roboto Slab', serif;
     color: gray;
 }
 
 #name, #email {
-    padding-right: 275;
+    padding-right: 251;
     border-radius: 5px;
     border-width: 1px;
 }
 
 #select {
-    padding-right: 200;
+    padding-right: 187;
     border-radius: 5px;
     border-width: 1px;
 }
 
 #textarea {
-    padding-right: 249;
+    padding-right: 243;
     padding-bottom: 80;
     border-radius: 5px;
     border-width: 1px;
+    font-family: 'Roboto Slab', serif;
+    color: gray;
+    
 }
 
 #send {
