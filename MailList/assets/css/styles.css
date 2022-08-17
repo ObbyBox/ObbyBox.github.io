@@ -1,8 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Slab:wght@300&family=Ubuntu:wght@300&display=swap');
 body {
     background-color: whitesmoke;
     text-align: center;
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
 }
+
+#question {
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+
 form {
     background-color: white;
     text-align: left;
+    align-content: center;
+    padding: 20;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    box-shadow: 2px 3px 10px gray;
+    font-size: 12px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#name, #email, #select{
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: gray;
+}
+
+#name, #email {
+    padding-right: 275;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#select {
+    padding-right: 200;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#textarea {
+    padding-right: 249;
+    padding-bottom: 80;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#send {
+    background-color: aqua;
+    padding: 14;
+    padding-left: 24;
+    padding-right: 24;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+input:invalid {
+    border: 2px solid red
 }
