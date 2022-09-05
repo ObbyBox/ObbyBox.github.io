@@ -1,0 +1,15 @@
+.pic {
+grid-template-columns: repeat(3., 1fr);
+gap: 5px;
+grid-auto-rows: minmax(100px, auto);
+}
+
+#pic {
+    grid-column: 1 / 4;
+    background-color: white;
+    grid-row: 1;
+}
+
+body {
+    background-color: lightskyblue;
+}
