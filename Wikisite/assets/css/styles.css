@@ -35,9 +35,6 @@ body {
  .wow {
   grid-column: 1;
   grid-row: 1; } 
-a {
-  text-decoration: none;
-}
 
   .left {
     grid-column: 1;
