@@ -1,15 +1,69 @@
-.pic {
-grid-template-columns: repeat(3., 1fr);
-gap: 5px;
-grid-auto-rows: minmax(100px, auto);
-}
-
-#pic {
-    grid-column: 1 / 4;
-    background-color: white;
-    grid-row: 1;
-}
 
 body {
-    background-color: lightskyblue;
+    background-color: gainsboro;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3., 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: white;
+    padding: 10px;
+  }
+
+  .main, .header, .left, .right, .footer {
+    box-shadow: 1px 1px 1px 1px slategray;
+    border-radius: 3px;
+  }
+
+  .header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgb(207, 229, 255);
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .scam {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / 1;
+    text-align: center;
+  }
+
+ .wow {
+  grid-column: 1;
+  grid-row: 1; } 
+a {
+  text-decoration: none;
+}
+
+  .left {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    background-color: rgb(253, 205, 144);
+    padding: 20px;
+    height: 462px;
+    text-decoration: none;
+    padding-bottom: 550px;
+  }
+  .right {
+    grid-column: 2 / 4;
+    grid-row: 2 /4;
+    background-color: lightskyblue;
+    padding: 50px;
+    text-indent: 10%;
+    height: 417;
+    grid-template-columns: repeat(3., 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    padding-bottom: 500px;
+  }
+
+  .footer {
+    grid-column: 2 / 4;
+    grid-row: 4;
+    background-color: lightsalmon;
+    height: 60;
+    text-align: center;
+  }
